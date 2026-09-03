@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Vídeos</title>
+
+    <link rel="stylesheet" href="videos.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1> Conteúdos em vídeo</h1>
+
+        <button onclick="voltar()">
+            Voltar
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <div class="filtros">
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar vídeo..."
+            >
+
+            <select id="disciplina">
+
+                <option value="">
+                    Todas as disciplinas
+                </option>
+
+                <option value="Matemática">
+                    Matemática
+                </option>
+
+                <option value="História">
+                    História
+                </option>
+
+                <option value="Biologia">
+                    Biologia
+                </option>
+
+                <option value="Português">
+                    Português
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div id="listaVideos"></div>
+
+    </main>
+
+
+    <script src="videos.js"></script>
+
+</body>
+
+</html>

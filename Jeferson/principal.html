@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Portal de Estudos</title>
+
+    <link rel="stylesheet" href="principal.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <h1>Portal de Estudos</h1>
+            <p>Seu espaço para aprender e tirar dúvidas.</p>
+        </div>
+
+        <button id="sair">
+            Sair
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section class="boas-vindas">
+
+            <h2 id="nomeAluno">
+                Olá!
+            </h2>
+
+            <p id="turmaAluno">
+                Bem-vindo ao Portal de Estudos.
+            </p>
+
+        </section>
+
+
+        <section class="cards">
+
+            <div class="card">
+
+                <h3>📚 Vídeos</h3>
+
+                <p>
+                    Encontre conteúdos para ajudar nos seus estudos.
+                </p>
+
+                <button onclick="abrirVideos()">
+                    Ver vídeos
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>❓ Minhas dúvidas</h3>
+
+                <p>
+                    Envie uma dúvida para um professor.
+                </p>
+
+                <button onclick="abrirDuvidas()">
+                    Tirar dúvida
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>🎓 Professores</h3>
+
+                <p>
+                    Consulte as respostas dos professores.
+                </p>
+
+                <button onclick="abrirProfessores()">
+                    Ver respostas
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="resumo">
+
+            <h2>Como funciona?</h2>
+
+            <p>
+                Pesquise conteúdos, assista às aulas e envie
+                suas dúvidas para os professores.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="principal.js"></script>
+
+</body>
+
+</html>
