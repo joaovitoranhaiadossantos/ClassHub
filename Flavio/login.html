@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Portal de Estudos</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Portal de Estudos</h1>
+
+        <p>Acesse utilizando seus dados</p>
+
+        <form id="loginForm">
+
+            <label for="cgm">CGM</label>
+            <input
+                type="text"
+                id="cgm"
+                placeholder="Digite seu CGM"
+                required
+            >
+
+            <label for="nome">Nome</label>
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+                required
+            >
+
+            <label for="turma">Turma</label>
+            <input
+                type="text"
+                id="turma"
+                placeholder="Ex: 2A"
+                required
+            >
+
+            <button type="submit">
+                Entrar
+            </button>
+
+        </form>
+
+        <p id="mensagem"></p>
+
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
