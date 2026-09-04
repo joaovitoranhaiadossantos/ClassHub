@@ -7,7 +7,7 @@ if (alunoSalvo) {
 
     const aluno = JSON.parse(alunoSalvo);
 
-    nomeAluno.innerText = "Olá, " + aluno.nome + "! 👋";
+    nomeAluno.innerText = "Olá, " + aluno.nome + "! ";
 
     turmaAluno.innerText =
         "Turma: " + aluno.turma +
