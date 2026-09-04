@@ -1,6 +1,6 @@
 # ClassHub
 
-Olá! Seja muito bem-vindo ao **ClassHub**!
+Seja bem-vindo ao **ClassHub**!
 
 O ClassHub é um projeto escolar que tem como objetivo **ajudar os alunos a tirarem suas dúvidas de forma online**. Este site pode ser usado para estudar para o ENEM, vestibular, provas ou apenas para reforçar o que já foi passado em sala. Apenas alunos com um cgm (cadastro geral de matrículas) pode entrar na plataforma para tirar dúvidas. Essa segurança na hora do cadastro garante que o número de perguntas sem sentido ou piadas sejam reduzidos ou inexistentes.
 
