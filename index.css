@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: white;
+    background-color: #2563eb;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
